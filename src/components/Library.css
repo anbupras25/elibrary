@@ -1,0 +1,272 @@
+.main
+{
+    width:100%;
+    height:100vh;
+    background-color:black;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-size: cover;
+    position:relative;
+    
+}
+.navbar
+{
+   width:85%;
+   height:15%;
+   margin:auto;
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+}
+
+.card
+{
+   box-shadow: 5px 5px 20px solid black;
+  right: 0;
+    width: 200px;
+    height:250px;
+    display:inline-block;
+    border-radius:20 px;
+    padding:12px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+   transition: transform .2s;
+    background-position: center;
+    background-size:cover;
+    left:20%;
+}
+.logo
+{
+    width:100px;
+    position:absolute;
+    background:transparent;
+left: 0.5em;;
+top:2;
+   
+    align-content: left;
+}
+/* .b1
+{
+    left:6em;
+    text-align:right;
+} */
+.main button
+{
+    left:10em;
+    text-align:right;
+    color:bisque;
+    padding:10px 25px;
+    background: transparent;
+    border:1px solid white;
+    cursor:pointer;
+    border-radius:20px;
+    outline:none;
+    transition-duration: 0.3s
+}
+h1
+{
+    font-size: 80px;
+    margin:10px 0 30px;
+    line-height: 80px;
+}
+.col
+{
+    position: absolute;
+  right: 0;
+    flex-basis:50%;
+    margin-right:200px;
+    
+}
+
+.content
+{
+    color:#fbfcfd;
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.content img{
+    width:250px;
+    left:7%
+}
+.content button{
+    top:80%;
+}
+.tb
+{
+    place-items: center;
+   
+}
+table,th,td
+{
+    opacity: 0.97;
+    background: transparent;
+
+    padding:30px;
+}
+marquee
+{
+    color:white;
+}
+table
+{
+    opacity: 0.97;
+    background: transparent;
+    margin-left: 200px;
+
+   border-collapse: collapse;
+    width: 1000px;
+    box-shadow:-1px 5px 5px 6px rgba(234, 226, 226, 0.818);
+    text-align:center;
+    cursor:pointer; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+td{
+    font-size: 18px;
+}
+th{
+    background-color:white;
+    color:black
+    
+}
+tr:nth-child(odd)
+{
+    background-color:black;
+    color:white
+}
+tr:nth-child(odd):hover
+{
+    background-color:black;
+    transform: scale(1.3);
+    transition:transform 300ms ease-in-out;
+    color:white
+}
+.result
+{
+    color:white;
+    
+}
+
+tr:nth-child(even)
+{
+    background-color:#ededed;
+     color:black;
+}
+tr:nth-child(even):hover
+{
+    background-color:lightgray;
+    transform: scale(1.3);
+    transition:transform 300ms ease-in;
+    color:black;
+}
+.flybooks img
+{
+    width:50px;
+    animation:books 7s linear infinite;
+
+}
+.flybooks
+{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+    position:absolute;
+    bottom:-20px;
+}
+@keyframes books{
+0%
+{
+    transform:translateY(0);
+    opacity:0;
+}
+50%
+{
+    
+    opacity:1;
+}
+70%
+{
+   
+    opacity:1;
+}
+100%
+{
+    transform:translateY(-80vh);
+    opacity:0;
+}
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
+
+.flybooks img:nth-child(1)
+{
+    animation-delay:2s;
+    width:30px;
+}
+
+.flybooks img:nth-child(2)
+{
+    animation-delay:2s;
+   
+}
+
+.flybooks img:nth-child(3)
+{
+    animation-delay:1s;
+    width:25px;
+}
+
+.flybooks img:nth-child(4)
+{
+    animation-delay:3s;
+    width:25px;
+}
+
+.flybooks img:nth-child(5)
+{
+    animation-delay:4.5s;
+
+}
+
+.flybooks img:nth-child(6)
+{
+    animation-delay:3s;
+    width:20px;
+}
+
+.flybooks img:nth-child(7)
+{
+    animation-delay:7s;
+    width:35px;
+}
+.card1
+{
+    background-image:url('https://images.ctfassets.net/usf1vwtuqyxm/24YWmI4UcyoMwj7wdKrEcL/374de1941927db12bd844fb197eab11f/English_Harry_Potter_3_Epub_9781781100233.jpg?w=914&q=70&fm=jpg');
+
+}
+.card2
+{
+    background-image:url('https://5.imimg.com/data5/LN/IL/GLADMIN-36176544/cosmos-book-500x500.png');
+}.card3
+{
+    background-image:url('https://media.springernature.com/full/springer-static/cover-hires/book/978-1-4842-3988-9');
+
+}
+.card4{
+    background-image:url('https://cloudfront.penguin.co.in/wp-content/uploads/2023/01/unnamed-file-94.jpg');
+
+}
+.card:hover{
+   
+    transform: scale(1.5);
+}
+
+
